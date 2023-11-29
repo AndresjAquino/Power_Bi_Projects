@@ -1,8 +1,8 @@
 # Power_Bi_Dashboard
 
-This repository contains Power BI dashboard projects
+[![PowerBi.jpg](https://i.postimg.cc/m200cNmg/PowerBi.jpg)](https://postimg.cc/1frW26xk)
 
-[![PowerBi.jpg](https://i.postimg.cc/6qCCMKxS/PowerBi.jpg)](https://postimg.cc/5QNHtZ0q)
+This repository contains Power BI dashboard projects
 
 **Projects:**
 
