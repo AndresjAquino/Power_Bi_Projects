@@ -4,12 +4,9 @@
 
 This repository contains Power BI dashboard projects
 
-**Projects:**
+##Projects:
 
-  • 01) Tourism
-
-
-## Tourism
+### Tourism
 
   This project is about tourism in the city of Luján de Cuyo, Mendoza.
 
