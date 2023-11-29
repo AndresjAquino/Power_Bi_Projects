@@ -4,6 +4,10 @@
 
 This repository contains Power BI dashboard projects
 
+### Index:
+
+01) Tourism Dashboard
+
 ## Tourism ⛱
 
   This project is about tourism in the city of Luján de Cuyo, Mendoza.
@@ -25,3 +29,15 @@ This repository contains Power BI dashboard projects
 • Page 4: Adventure providers 🚣‍♂️🤿
 
 ![Page 4](https://github.com/AndresjAquino/Power_Bi_Dashboard/blob/main/01_Tourism/Page_4.png?raw=true)
+
+• Page 5: Wineries 🍷
+
+![Page 5](https://github.com/AndresjAquino/Power_Bi_Dashboard/blob/main/01_Tourism/Page_5.png?raw=true)
+
+• Page 6: Tourist informants ℹ
+
+![Page 6](https://github.com/AndresjAquino/Power_Bi_Dashboard/blob/main/01_Tourism/Page_6.png?raw=true)
+
+• Page 7: Gastronomy 🍜
+
+![Page 7](https://github.com/AndresjAquino/Power_Bi_Dashboard/blob/main/01_Tourism/Page_7.png?raw=true)
