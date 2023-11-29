@@ -10,6 +10,10 @@ This repository contains Power BI dashboard projects
 
 [![Lujan-de-Cuyo-Aniversario-166-1-1080x675.jpg](https://i.postimg.cc/MTNckFYS/Lujan-de-Cuyo-Aniversario-166-1-1080x675.jpg)](https://postimg.cc/njKVBT5R)
 
-• Page 1
+• Page 1: accommodations 🏨
 
 ![Page 1](https://github.com/AndresjAquino/Power_Bi_Dashboard/blob/main/01_Tourism/Page_1.png?raw=true)
+
+• Page 2: natural attractions 🗻
+
+![Page 2](https://github.com/AndresjAquino/Power_Bi_Dashboard/blob/main/01_Tourism/Page_2.png?raw=true)
