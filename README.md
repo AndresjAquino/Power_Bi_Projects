@@ -21,3 +21,7 @@ This repository contains Power BI dashboard projects
 • Page 3: Cultural attractions 🎭
 
 ![Page 3](https://github.com/AndresjAquino/Power_Bi_Dashboard/blob/main/01_Tourism/Page_3.png?raw=true)
+
+• Page 4: Adventure providers 🚣‍♂️🤿
+
+![Page 4](https://github.com/AndresjAquino/Power_Bi_Dashboard/blob/main/01_Tourism/Page_4.png?raw=true)
