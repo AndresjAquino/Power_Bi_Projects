@@ -2,6 +2,8 @@
 
 This repository contains Power BI dashboard projects
 
+[![PowerBi.jpg](https://i.postimg.cc/6qCCMKxS/PowerBi.jpg)](https://postimg.cc/5QNHtZ0q)
+
 **Projects:**
 
   • 01) Tourism
