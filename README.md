@@ -1,14 +1,14 @@
-# Power_Bi_Dashboard 📊
+# POWER Bi DASHBOARD 📊
 
 [![PowerBi.jpg](https://i.postimg.cc/m200cNmg/PowerBi.jpg)](https://postimg.cc/1frW26xk)
 
 This repository contains Power BI dashboard projects
 
-### Index:
+### Dashboard index:
 
-01) Tourism Dashboard
+01) Tourism
 
-## Tourism ⛱
+## TOURISM ⛱
 
   This project is about tourism in the city of Luján de Cuyo, Mendoza.
 
