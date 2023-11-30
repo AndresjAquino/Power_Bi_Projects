@@ -1,4 +1,4 @@
-# POWER Bi DASHBOARD 📊
+# DASHBOARDS 📊
 
 [![PowerBi.jpg](https://i.postimg.cc/m200cNmg/PowerBi.jpg)](https://postimg.cc/1frW26xk)
 
