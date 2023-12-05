@@ -1,0 +1,3937 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"Calendario\",\"MOSTOS\",\"VINOS\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.123.742.0 (23.11)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "es-ES",
+    "cultures": [
+      {
+        "name": "es-ES",
+        "linguisticMetadata": {
+          "content": {
+            "DynamicImprovement": "HighConfidence",
+            "Entities": {
+              "amedida": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Amedidas"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "amedida": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "amedida": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  }
+                ]
+              },
+              "amedida.columna": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Amedidas",
+                    "ConceptualProperty": "Columna"
+                  }
+                },
+                "Hidden": true,
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "columna": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "columna": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  }
+                ]
+              },
+              "calendario": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendario"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "calendario": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "calendario": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  }
+                ]
+              },
+              "calendario.fecha": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendario",
+                    "ConceptualProperty": "FECHA"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "fecha": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "fecha": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.7
+                    }
+                  }
+                ]
+              },
+              "calendario.fecha.variación.jerarquía_de_fecha": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendario",
+                    "Hierarchy": "Jerarquía de fechas",
+                    "VariationSet": "Variación",
+                    "VariationSource": "FECHA"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "jerarquía de fecha": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "jerarquía de fecha": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  }
+                ]
+              },
+              "calendario.fecha.variación.jerarquía_de_fecha.año": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendario",
+                    "Hierarchy": "Jerarquía de fechas",
+                    "HierarchyLevel": "Año",
+                    "VariationSet": "Variación",
+                    "VariationSource": "FECHA"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "año": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "año": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "fecha año": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "fecha año": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  }
+                ]
+              },
+              "calendario.fecha.variación.jerarquía_de_fecha.día": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendario",
+                    "Hierarchy": "Jerarquía de fechas",
+                    "HierarchyLevel": "Día",
+                    "VariationSet": "Variación",
+                    "VariationSource": "FECHA"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "día": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "día": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "fecha día": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "fecha día": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  }
+                ]
+              },
+              "calendario.fecha.variación.jerarquía_de_fecha.me": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendario",
+                    "Hierarchy": "Jerarquía de fechas",
+                    "HierarchyLevel": "Mes",
+                    "VariationSet": "Variación",
+                    "VariationSource": "FECHA"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "me": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "me": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "fecha me": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "fecha me": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  }
+                ]
+              },
+              "calendario.fecha.variación.jerarquía_de_fecha.trimestre": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendario",
+                    "Hierarchy": "Jerarquía de fechas",
+                    "HierarchyLevel": "Trimestre",
+                    "VariationSet": "Variación",
+                    "VariationSource": "FECHA"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "trimestre": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "trimestre": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "fecha trimestre": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "fecha trimestre": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  }
+                ]
+              },
+              "mosto": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MOSTOS"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "mosto": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "mosto": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  }
+                ]
+              },
+              "mosto.color": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MOSTOS",
+                    "ConceptualProperty": "COLOR"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "color": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "color": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "hue": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "tint": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "shade": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "dye": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "paint": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "pigment": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "mosto.cosecha": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MOSTOS",
+                    "ConceptualProperty": "COSECHA"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "cosecha": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "cosecha": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  }
+                ]
+              },
+              "mosto.fecha": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MOSTOS",
+                    "ConceptualProperty": "FECHA"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "fecha": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "fecha": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.7
+                    }
+                  }
+                ]
+              },
+              "mosto.operaciones_contado": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MOSTOS",
+                    "ConceptualProperty": "OPERACIONES CONTADO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "operaciones contado": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "operaciones contado": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "operacione contado": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  }
+                ]
+              },
+              "mosto.operaciones_financiado": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MOSTOS",
+                    "ConceptualProperty": "OPERACIONES FINANCIADO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "operaciones financiado": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "operaciones financiado": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "operacione financiado": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  }
+                ]
+              },
+              "mosto.origen": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MOSTOS",
+                    "ConceptualProperty": "ORIGEN"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "origen": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "origen": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  }
+                ]
+              },
+              "mosto.precio_total_contado": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MOSTOS",
+                    "ConceptualProperty": "PRECIO TOTAL CONTADO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "precio total contado": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "precio total contado": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "precio aggregate contado": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "precio overall contado": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "mosto.precio_total_financiado": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MOSTOS",
+                    "ConceptualProperty": "PRECIO TOTAL FINANCIADO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "precio total financiado": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "precio total financiado": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "precio aggregate financiado": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "precio overall financiado": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "mosto.tipo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MOSTOS",
+                    "ConceptualProperty": "TIPO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tipo": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "tipo": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  }
+                ]
+              },
+              "mosto.volumen_contado": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MOSTOS",
+                    "ConceptualProperty": "VOLUMEN CONTADO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "volumen contado": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "volumen contado": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  }
+                ]
+              },
+              "mosto.volumen_financiado": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MOSTOS",
+                    "ConceptualProperty": "VOLUMEN FINANCIADO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "volumen financiado": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "volumen financiado": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  }
+                ]
+              },
+              "vino": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "VINOS"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "vino": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "vino": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "plonk": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "booze": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "vino.color": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "VINOS",
+                    "ConceptualProperty": "COLOR"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "color": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "color": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "hue": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "tint": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "shade": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "dye": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "paint": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "pigment": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "vino.cosecha": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "VINOS",
+                    "ConceptualProperty": "COSECHA"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "cosecha": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "cosecha": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  }
+                ]
+              },
+              "vino.fecha": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "VINOS",
+                    "ConceptualProperty": "FECHA"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "fecha": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "fecha": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.7
+                    }
+                  }
+                ]
+              },
+              "vino.operaciones_contado": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "VINOS",
+                    "ConceptualProperty": "OPERACIONES CONTADO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "operaciones contado": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "operaciones contado": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "operacione contado": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  }
+                ]
+              },
+              "vino.operaciones_financiado": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "VINOS",
+                    "ConceptualProperty": "OPERACIONES FINANCIADO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "operaciones financiado": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "operaciones financiado": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "operacione financiado": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  }
+                ]
+              },
+              "vino.origen": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "VINOS",
+                    "ConceptualProperty": "ORIGEN"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "origen": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "origen": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  }
+                ]
+              },
+              "vino.precio_total_contado": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "VINOS",
+                    "ConceptualProperty": "PRECIO TOTAL CONTADO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "precio total contado": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "precio total contado": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "precio aggregate contado": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "precio overall contado": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "vino.precio_total_financiado": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "VINOS",
+                    "ConceptualProperty": "PRECIO TOTAL FINANCIADO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "precio total financiado": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "precio total financiado": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "precio aggregate financiado": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "precio overall financiado": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "vino.tipo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "VINOS",
+                    "ConceptualProperty": "TIPO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tipo": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "tipo": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  }
+                ]
+              },
+              "vino.volumen_contado": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "VINOS",
+                    "ConceptualProperty": "VOLUMEN CONTADO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "volumen contado": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "volumen contado": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  }
+                ]
+              },
+              "vino.volumen_financiado": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "VINOS",
+                    "ConceptualProperty": "VOLUMEN FINANCIADO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "volumen financiado": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "volumen financiado": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "amedida_has_botella_transparente": {
+                "Binding": {
+                  "ConceptualEntity": "Amedidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "amedida.botella_transparente"
+                      },
+                      "Subject": {
+                        "Role": "amedida"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "amedida": {
+                    "Target": {
+                      "Entity": "amedida"
+                    }
+                  },
+                  "amedida.botella_transparente": {
+                    "Target": {
+                      "Entity": "amedida.botella_transparente"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendario_fecha_has_variación_jerarquía_de_fecha": {
+                "Binding": {
+                  "ConceptualEntity": "Calendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.fecha.variación.jerarquía_de_fecha"
+                      },
+                      "Subject": {
+                        "Role": "calendario.fecha"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario.fecha": {
+                    "Target": {
+                      "Entity": "calendario.fecha"
+                    }
+                  },
+                  "calendario.fecha.variación.jerarquía_de_fecha": {
+                    "Target": {
+                      "Entity": "calendario.fecha.variación.jerarquía_de_fecha"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendario_fecha_variación_jerarquía_de_fecha_año_has_calendario_fecha_variación_jerarquía_de_fecha_trimestre": {
+                "Binding": {
+                  "ConceptualEntity": "Calendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.fecha.variación.jerarquía_de_fecha.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "calendario.fecha.variación.jerarquía_de_fecha.año"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.fecha.variación.jerarquía_de_fecha.año"
+                      },
+                      "Subject": {
+                        "Role": "calendario.fecha.variación.jerarquía_de_fecha.trimestre"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Preposition": {
+                      "Object": {
+                        "Role": "calendario.fecha.variación.jerarquía_de_fecha.año"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "calendario.fecha.variación.jerarquía_de_fecha.trimestre"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario.fecha.variación.jerarquía_de_fecha.año": {
+                    "Target": {
+                      "Entity": "calendario.fecha.variación.jerarquía_de_fecha.año"
+                    }
+                  },
+                  "calendario.fecha.variación.jerarquía_de_fecha.trimestre": {
+                    "Target": {
+                      "Entity": "calendario.fecha.variación.jerarquía_de_fecha.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendario_fecha_variación_jerarquía_de_fecha_has_año": {
+                "Binding": {
+                  "ConceptualEntity": "Calendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.fecha.variación.jerarquía_de_fecha.año"
+                      },
+                      "Subject": {
+                        "Role": "calendario.fecha.variación.jerarquía_de_fecha"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario.fecha.variación.jerarquía_de_fecha": {
+                    "Target": {
+                      "Entity": "calendario.fecha.variación.jerarquía_de_fecha"
+                    }
+                  },
+                  "calendario.fecha.variación.jerarquía_de_fecha.año": {
+                    "Target": {
+                      "Entity": "calendario.fecha.variación.jerarquía_de_fecha.año"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendario_fecha_variación_jerarquía_de_fecha_has_día": {
+                "Binding": {
+                  "ConceptualEntity": "Calendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.fecha.variación.jerarquía_de_fecha.día"
+                      },
+                      "Subject": {
+                        "Role": "calendario.fecha.variación.jerarquía_de_fecha"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario.fecha.variación.jerarquía_de_fecha": {
+                    "Target": {
+                      "Entity": "calendario.fecha.variación.jerarquía_de_fecha"
+                    }
+                  },
+                  "calendario.fecha.variación.jerarquía_de_fecha.día": {
+                    "Target": {
+                      "Entity": "calendario.fecha.variación.jerarquía_de_fecha.día"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendario_fecha_variación_jerarquía_de_fecha_has_me": {
+                "Binding": {
+                  "ConceptualEntity": "Calendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.fecha.variación.jerarquía_de_fecha.me"
+                      },
+                      "Subject": {
+                        "Role": "calendario.fecha.variación.jerarquía_de_fecha"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario.fecha.variación.jerarquía_de_fecha": {
+                    "Target": {
+                      "Entity": "calendario.fecha.variación.jerarquía_de_fecha"
+                    }
+                  },
+                  "calendario.fecha.variación.jerarquía_de_fecha.me": {
+                    "Target": {
+                      "Entity": "calendario.fecha.variación.jerarquía_de_fecha.me"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendario_fecha_variación_jerarquía_de_fecha_has_trimestre": {
+                "Binding": {
+                  "ConceptualEntity": "Calendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.fecha.variación.jerarquía_de_fecha.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "calendario.fecha.variación.jerarquía_de_fecha"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario.fecha.variación.jerarquía_de_fecha": {
+                    "Target": {
+                      "Entity": "calendario.fecha.variación.jerarquía_de_fecha"
+                    }
+                  },
+                  "calendario.fecha.variación.jerarquía_de_fecha.trimestre": {
+                    "Target": {
+                      "Entity": "calendario.fecha.variación.jerarquía_de_fecha.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendario_fecha_variación_jerarquía_de_fecha_me_has_calendario_fecha_variación_jerarquía_de_fecha_día": {
+                "Binding": {
+                  "ConceptualEntity": "Calendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.fecha.variación.jerarquía_de_fecha.día"
+                      },
+                      "Subject": {
+                        "Role": "calendario.fecha.variación.jerarquía_de_fecha.me"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.fecha.variación.jerarquía_de_fecha.me"
+                      },
+                      "Subject": {
+                        "Role": "calendario.fecha.variación.jerarquía_de_fecha.día"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Preposition": {
+                      "Object": {
+                        "Role": "calendario.fecha.variación.jerarquía_de_fecha.me"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "calendario.fecha.variación.jerarquía_de_fecha.día"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario.fecha.variación.jerarquía_de_fecha.día": {
+                    "Target": {
+                      "Entity": "calendario.fecha.variación.jerarquía_de_fecha.día"
+                    }
+                  },
+                  "calendario.fecha.variación.jerarquía_de_fecha.me": {
+                    "Target": {
+                      "Entity": "calendario.fecha.variación.jerarquía_de_fecha.me"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendario_fecha_variación_jerarquía_de_fecha_trimestre_has_calendario_fecha_variación_jerarquía_de_fecha_me": {
+                "Binding": {
+                  "ConceptualEntity": "Calendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.fecha.variación.jerarquía_de_fecha.me"
+                      },
+                      "Subject": {
+                        "Role": "calendario.fecha.variación.jerarquía_de_fecha.trimestre"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.fecha.variación.jerarquía_de_fecha.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "calendario.fecha.variación.jerarquía_de_fecha.me"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Preposition": {
+                      "Object": {
+                        "Role": "calendario.fecha.variación.jerarquía_de_fecha.trimestre"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "calendario.fecha.variación.jerarquía_de_fecha.me"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario.fecha.variación.jerarquía_de_fecha.me": {
+                    "Target": {
+                      "Entity": "calendario.fecha.variación.jerarquía_de_fecha.me"
+                    }
+                  },
+                  "calendario.fecha.variación.jerarquía_de_fecha.trimestre": {
+                    "Target": {
+                      "Entity": "calendario.fecha.variación.jerarquía_de_fecha.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendario_has_fecha": {
+                "Binding": {
+                  "ConceptualEntity": "Calendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario.fecha"
+                      },
+                      "Subject": {
+                        "Role": "calendario"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario": {
+                    "Target": {
+                      "Entity": "calendario"
+                    }
+                  },
+                  "calendario.fecha": {
+                    "Target": {
+                      "Entity": "calendario.fecha"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "mosto_has_calendario": {
+                "Binding": {
+                  "ConceptualEntity": "MOSTOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario"
+                      },
+                      "Subject": {
+                        "Role": "mosto"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "mosto"
+                      },
+                      "Subject": {
+                        "Role": "calendario"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario": {
+                    "Target": {
+                      "Entity": "calendario"
+                    }
+                  },
+                  "mosto": {
+                    "Target": {
+                      "Entity": "mosto"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "mosto_has_color": {
+                "Binding": {
+                  "ConceptualEntity": "MOSTOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "mosto.color"
+                      },
+                      "Subject": {
+                        "Role": "mosto"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "mosto": {
+                    "Target": {
+                      "Entity": "mosto"
+                    }
+                  },
+                  "mosto.color": {
+                    "Target": {
+                      "Entity": "mosto.color"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "mosto_has_cosecha": {
+                "Binding": {
+                  "ConceptualEntity": "MOSTOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "mosto.cosecha"
+                      },
+                      "Subject": {
+                        "Role": "mosto"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "mosto": {
+                    "Target": {
+                      "Entity": "mosto"
+                    }
+                  },
+                  "mosto.cosecha": {
+                    "Target": {
+                      "Entity": "mosto.cosecha"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "mosto_has_fecha": {
+                "Binding": {
+                  "ConceptualEntity": "MOSTOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "mosto.fecha"
+                      },
+                      "Subject": {
+                        "Role": "mosto"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "mosto": {
+                    "Target": {
+                      "Entity": "mosto"
+                    }
+                  },
+                  "mosto.fecha": {
+                    "Target": {
+                      "Entity": "mosto.fecha"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "mosto_has_operaciones_contado": {
+                "Binding": {
+                  "ConceptualEntity": "MOSTOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "mosto.operaciones_contado"
+                      },
+                      "Subject": {
+                        "Role": "mosto"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "mosto": {
+                    "Target": {
+                      "Entity": "mosto"
+                    }
+                  },
+                  "mosto.operaciones_contado": {
+                    "Target": {
+                      "Entity": "mosto.operaciones_contado"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "mosto_has_operaciones_financiado": {
+                "Binding": {
+                  "ConceptualEntity": "MOSTOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "mosto.operaciones_financiado"
+                      },
+                      "Subject": {
+                        "Role": "mosto"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "mosto": {
+                    "Target": {
+                      "Entity": "mosto"
+                    }
+                  },
+                  "mosto.operaciones_financiado": {
+                    "Target": {
+                      "Entity": "mosto.operaciones_financiado"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "mosto_has_origen": {
+                "Binding": {
+                  "ConceptualEntity": "MOSTOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "mosto.origen"
+                      },
+                      "Subject": {
+                        "Role": "mosto"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "mosto": {
+                    "Target": {
+                      "Entity": "mosto"
+                    }
+                  },
+                  "mosto.origen": {
+                    "Target": {
+                      "Entity": "mosto.origen"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "mosto_has_precio_total_contado": {
+                "Binding": {
+                  "ConceptualEntity": "MOSTOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "mosto.precio_total_contado"
+                      },
+                      "Subject": {
+                        "Role": "mosto"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "mosto": {
+                    "Target": {
+                      "Entity": "mosto"
+                    }
+                  },
+                  "mosto.precio_total_contado": {
+                    "Target": {
+                      "Entity": "mosto.precio_total_contado"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "mosto_has_precio_total_financiado": {
+                "Binding": {
+                  "ConceptualEntity": "MOSTOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "mosto.precio_total_financiado"
+                      },
+                      "Subject": {
+                        "Role": "mosto"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "mosto": {
+                    "Target": {
+                      "Entity": "mosto"
+                    }
+                  },
+                  "mosto.precio_total_financiado": {
+                    "Target": {
+                      "Entity": "mosto.precio_total_financiado"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "mosto_has_tipo": {
+                "Binding": {
+                  "ConceptualEntity": "MOSTOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "mosto.tipo"
+                      },
+                      "Subject": {
+                        "Role": "mosto"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "mosto": {
+                    "Target": {
+                      "Entity": "mosto"
+                    }
+                  },
+                  "mosto.tipo": {
+                    "Target": {
+                      "Entity": "mosto.tipo"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "mosto_has_volumen_contado": {
+                "Binding": {
+                  "ConceptualEntity": "MOSTOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "mosto.volumen_contado"
+                      },
+                      "Subject": {
+                        "Role": "mosto"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "mosto": {
+                    "Target": {
+                      "Entity": "mosto"
+                    }
+                  },
+                  "mosto.volumen_contado": {
+                    "Target": {
+                      "Entity": "mosto.volumen_contado"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "mosto_has_volumen_financiado": {
+                "Binding": {
+                  "ConceptualEntity": "MOSTOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "mosto.volumen_financiado"
+                      },
+                      "Subject": {
+                        "Role": "mosto"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "mosto": {
+                    "Target": {
+                      "Entity": "mosto"
+                    }
+                  },
+                  "mosto.volumen_financiado": {
+                    "Target": {
+                      "Entity": "mosto.volumen_financiado"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "vino_has_amedida_VolContado": {
+                "Binding": {
+                  "ConceptualEntity": "VINOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "amedida.VolContado"
+                      },
+                      "Subject": {
+                        "Role": "vino"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "amedida.VolContado": {
+                    "Target": {
+                      "Entity": "amedida.VolContado"
+                    }
+                  },
+                  "vino": {
+                    "Target": {
+                      "Entity": "vino"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "vino_has_amedida_VolFinanciado": {
+                "Binding": {
+                  "ConceptualEntity": "VINOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "amedida.VolFinanciado"
+                      },
+                      "Subject": {
+                        "Role": "vino"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "amedida.VolFinanciado": {
+                    "Target": {
+                      "Entity": "amedida.VolFinanciado"
+                    }
+                  },
+                  "vino": {
+                    "Target": {
+                      "Entity": "vino"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "vino_has_amedida_VolTinto": {
+                "Binding": {
+                  "ConceptualEntity": "VINOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "amedida.VolTinto"
+                      },
+                      "Subject": {
+                        "Role": "vino"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "amedida.VolTinto": {
+                    "Target": {
+                      "Entity": "amedida.VolTinto"
+                    }
+                  },
+                  "vino": {
+                    "Target": {
+                      "Entity": "vino"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "vino_has_amedida_VolTotal_BLANCO": {
+                "Binding": {
+                  "ConceptualEntity": "VINOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "amedida.VolTotal_BLANCO"
+                      },
+                      "Subject": {
+                        "Role": "vino"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "amedida.VolTotal_BLANCO": {
+                    "Target": {
+                      "Entity": "amedida.VolTotal_BLANCO"
+                    }
+                  },
+                  "vino": {
+                    "Target": {
+                      "Entity": "vino"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "vino_has_amedida_VolTotal_ROSADO": {
+                "Binding": {
+                  "ConceptualEntity": "VINOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "amedida.VolTotal_ROSADO"
+                      },
+                      "Subject": {
+                        "Role": "vino"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "amedida.VolTotal_ROSADO": {
+                    "Target": {
+                      "Entity": "amedida.VolTotal_ROSADO"
+                    }
+                  },
+                  "vino": {
+                    "Target": {
+                      "Entity": "vino"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "vino_has_amedida_VolTotal_TINTO": {
+                "Binding": {
+                  "ConceptualEntity": "VINOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "amedida.VolTotal_TINTO"
+                      },
+                      "Subject": {
+                        "Role": "vino"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "amedida.VolTotal_TINTO": {
+                    "Target": {
+                      "Entity": "amedida.VolTotal_TINTO"
+                    }
+                  },
+                  "vino": {
+                    "Target": {
+                      "Entity": "vino"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "vino_has_amedida_VolTotal_TINTO_para_TINTOS_GENERICOS": {
+                "Binding": {
+                  "ConceptualEntity": "VINOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "amedida.VolTotal_TINTO_para_TINTOS_GENERICOS"
+                      },
+                      "Subject": {
+                        "Role": "vino"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "amedida.VolTotal_TINTO_para_TINTOS_GENERICOS": {
+                    "Target": {
+                      "Entity": "amedida.VolTotal_TINTO_para_TINTOS_GENERICOS"
+                    }
+                  },
+                  "vino": {
+                    "Target": {
+                      "Entity": "vino"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "vino_has_amedida_coef_precio_vol": {
+                "Binding": {
+                  "ConceptualEntity": "VINOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "amedida.coef_precio_vol"
+                      },
+                      "Subject": {
+                        "Role": "vino"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "amedida.coef_precio_vol": {
+                    "Target": {
+                      "Entity": "amedida.coef_precio_vol"
+                    }
+                  },
+                  "vino": {
+                    "Target": {
+                      "Entity": "vino"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "vino_has_amedida_precio_contado_promedio": {
+                "Binding": {
+                  "ConceptualEntity": "VINOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "amedida.precio_contado_promedio"
+                      },
+                      "Subject": {
+                        "Role": "vino"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "amedida.precio_contado_promedio": {
+                    "Target": {
+                      "Entity": "amedida.precio_contado_promedio"
+                    }
+                  },
+                  "vino": {
+                    "Target": {
+                      "Entity": "vino"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "vino_has_amedida_total_dinero": {
+                "Binding": {
+                  "ConceptualEntity": "VINOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "amedida.total_dinero"
+                      },
+                      "Subject": {
+                        "Role": "vino"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "amedida.total_dinero": {
+                    "Target": {
+                      "Entity": "amedida.total_dinero"
+                    }
+                  },
+                  "vino": {
+                    "Target": {
+                      "Entity": "vino"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "vino_has_amedida_total_dinero_contado": {
+                "Binding": {
+                  "ConceptualEntity": "VINOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "amedida.total_dinero_contado"
+                      },
+                      "Subject": {
+                        "Role": "vino"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "amedida.total_dinero_contado": {
+                    "Target": {
+                      "Entity": "amedida.total_dinero_contado"
+                    }
+                  },
+                  "vino": {
+                    "Target": {
+                      "Entity": "vino"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "vino_has_amedida_total_dinero_financiado": {
+                "Binding": {
+                  "ConceptualEntity": "VINOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "amedida.total_dinero_financiado"
+                      },
+                      "Subject": {
+                        "Role": "vino"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "amedida.total_dinero_financiado": {
+                    "Target": {
+                      "Entity": "amedida.total_dinero_financiado"
+                    }
+                  },
+                  "vino": {
+                    "Target": {
+                      "Entity": "vino"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "vino_has_amedida_total_vol_contado": {
+                "Binding": {
+                  "ConceptualEntity": "VINOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "amedida.total_vol_contado"
+                      },
+                      "Subject": {
+                        "Role": "vino"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "amedida.total_vol_contado": {
+                    "Target": {
+                      "Entity": "amedida.total_vol_contado"
+                    }
+                  },
+                  "vino": {
+                    "Target": {
+                      "Entity": "vino"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "vino_has_amedida_total_vol_financiado": {
+                "Binding": {
+                  "ConceptualEntity": "VINOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "amedida.total_vol_financiado"
+                      },
+                      "Subject": {
+                        "Role": "vino"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "amedida.total_vol_financiado": {
+                    "Target": {
+                      "Entity": "amedida.total_vol_financiado"
+                    }
+                  },
+                  "vino": {
+                    "Target": {
+                      "Entity": "vino"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "vino_has_amedida_vol_total": {
+                "Binding": {
+                  "ConceptualEntity": "VINOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "amedida.vol_total"
+                      },
+                      "Subject": {
+                        "Role": "vino"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "amedida.vol_total": {
+                    "Target": {
+                      "Entity": "amedida.vol_total"
+                    }
+                  },
+                  "vino": {
+                    "Target": {
+                      "Entity": "vino"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "vino_has_calendario": {
+                "Binding": {
+                  "ConceptualEntity": "VINOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendario"
+                      },
+                      "Subject": {
+                        "Role": "vino"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "vino"
+                      },
+                      "Subject": {
+                        "Role": "calendario"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendario": {
+                    "Target": {
+                      "Entity": "calendario"
+                    }
+                  },
+                  "vino": {
+                    "Target": {
+                      "Entity": "vino"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "vino_has_color": {
+                "Binding": {
+                  "ConceptualEntity": "VINOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "vino.color"
+                      },
+                      "Subject": {
+                        "Role": "vino"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "vino": {
+                    "Target": {
+                      "Entity": "vino"
+                    }
+                  },
+                  "vino.color": {
+                    "Target": {
+                      "Entity": "vino.color"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "vino_has_cosecha": {
+                "Binding": {
+                  "ConceptualEntity": "VINOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "vino.cosecha"
+                      },
+                      "Subject": {
+                        "Role": "vino"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "vino": {
+                    "Target": {
+                      "Entity": "vino"
+                    }
+                  },
+                  "vino.cosecha": {
+                    "Target": {
+                      "Entity": "vino.cosecha"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "vino_has_fecha": {
+                "Binding": {
+                  "ConceptualEntity": "VINOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "vino.fecha"
+                      },
+                      "Subject": {
+                        "Role": "vino"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "vino": {
+                    "Target": {
+                      "Entity": "vino"
+                    }
+                  },
+                  "vino.fecha": {
+                    "Target": {
+                      "Entity": "vino.fecha"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "vino_has_operaciones_contado": {
+                "Binding": {
+                  "ConceptualEntity": "VINOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "vino.operaciones_contado"
+                      },
+                      "Subject": {
+                        "Role": "vino"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "vino": {
+                    "Target": {
+                      "Entity": "vino"
+                    }
+                  },
+                  "vino.operaciones_contado": {
+                    "Target": {
+                      "Entity": "vino.operaciones_contado"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "vino_has_operaciones_financiado": {
+                "Binding": {
+                  "ConceptualEntity": "VINOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "vino.operaciones_financiado"
+                      },
+                      "Subject": {
+                        "Role": "vino"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "vino": {
+                    "Target": {
+                      "Entity": "vino"
+                    }
+                  },
+                  "vino.operaciones_financiado": {
+                    "Target": {
+                      "Entity": "vino.operaciones_financiado"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "vino_has_origen": {
+                "Binding": {
+                  "ConceptualEntity": "VINOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "vino.origen"
+                      },
+                      "Subject": {
+                        "Role": "vino"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "vino": {
+                    "Target": {
+                      "Entity": "vino"
+                    }
+                  },
+                  "vino.origen": {
+                    "Target": {
+                      "Entity": "vino.origen"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "vino_has_tipo": {
+                "Binding": {
+                  "ConceptualEntity": "VINOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "vino.tipo"
+                      },
+                      "Subject": {
+                        "Role": "vino"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "vino": {
+                    "Target": {
+                      "Entity": "vino"
+                    }
+                  },
+                  "vino.tipo": {
+                    "Target": {
+                      "Entity": "vino.tipo"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "vino_has_volumen_contado": {
+                "Binding": {
+                  "ConceptualEntity": "VINOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "vino.volumen_contado"
+                      },
+                      "Subject": {
+                        "Role": "vino"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "vino": {
+                    "Target": {
+                      "Entity": "vino"
+                    }
+                  },
+                  "vino.volumen_contado": {
+                    "Target": {
+                      "Entity": "vino.volumen_contado"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "vino_has_volumen_financiado": {
+                "Binding": {
+                  "ConceptualEntity": "VINOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "vino.volumen_financiado"
+                      },
+                      "Subject": {
+                        "Role": "vino"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "vino": {
+                    "Target": {
+                      "Entity": "vino"
+                    }
+                  },
+                  "vino.volumen_financiado": {
+                    "Target": {
+                      "Entity": "vino.volumen_financiado"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "vino_is_expensive": {
+                "Binding": {
+                  "ConceptualEntity": "VINOS"
+                },
+                "Phrasings": [
+                  {
+                    "Adjective": {
+                      "Adjectives": [
+                        {
+                          "expensive": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Antonyms": [
+                        {
+                          "cheap": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Measurement": {
+                        "Role": "vino.precio_total_contado"
+                      },
+                      "Subject": {
+                        "Role": "vino"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "vino.precio_total_contado"
+                      },
+                      "Subject": {
+                        "Role": "vino"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "vino": {
+                    "Target": {
+                      "Entity": "vino"
+                    }
+                  },
+                  "vino.precio_total_contado": {
+                    "Target": {
+                      "Entity": "vino.precio_total_contado"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "vino_is_expensive1": {
+                "Binding": {
+                  "ConceptualEntity": "VINOS"
+                },
+                "Phrasings": [
+                  {
+                    "Adjective": {
+                      "Adjectives": [
+                        {
+                          "expensive": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Antonyms": [
+                        {
+                          "cheap": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Measurement": {
+                        "Role": "vino.precio_total_financiado"
+                      },
+                      "Subject": {
+                        "Role": "vino"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "vino.precio_total_financiado"
+                      },
+                      "Subject": {
+                        "Role": "vino"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "vino": {
+                    "Target": {
+                      "Entity": "vino"
+                    }
+                  },
+                  "vino.precio_total_financiado": {
+                    "Target": {
+                      "Entity": "vino.precio_total_financiado"
+                    }
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "2.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "bfa6918a-75f4-4f0b-89e1-853f12e5e595",
+        "fromColumn": "FECHA",
+        "fromTable": "Calendario",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_fd00a360-0013-4a36-b893-8b6baee52b1f"
+      },
+      {
+        "name": "9b5f00e7-24c5-4242-80eb-6c4bf4d0879b",
+        "crossFilteringBehavior": "bothDirections",
+        "fromColumn": "FECHA",
+        "fromTable": "MOSTOS",
+        "toColumn": "FECHA",
+        "toTable": "Calendario"
+      },
+      {
+        "name": "61138ec9-dabf-4f95-a0b4-296e1e6b9095",
+        "crossFilteringBehavior": "bothDirections",
+        "fromColumn": "FECHA",
+        "fromTable": "VINOS",
+        "toColumn": "FECHA",
+        "toTable": "Calendario"
+      }
+    ],
+    "sourceQueryCulture": "es-AR",
+    "tables": [
+      {
+        "name": "DateTableTemplate_a383559a-696f-4361-8881-99ed11757775",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "8096f9ed-b50d-46e8-a9b0-24d6d61704e4",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Año",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "a38b91bb-3e49-4cba-832f-6165c051d29c",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "NroMes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "3c0885ee-2e6a-4485-8f39-2cbe10b23714",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "402f737a-d09b-48d7-bd61-953c6a10c5ac",
+            "sortByColumn": "NroMes",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "NroTrimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([NroMes] + 2) / 3)",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "4ed005e5-3282-4a6e-bd50-6697ec8aa2aa",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Trim. \" & [NroTrimestre]",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "8b66ef7c-e2f6-4608-a01d-4f128aaa45da",
+            "sortByColumn": "NroTrimestre",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Día",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "bb1e65f6-7fc0-4632-b5a6-b0a1c7c41837",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Jerarquía de fechas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Año",
+                "column": "Año",
+                "lineageTag": "b2353817-4593-43c0-a636-c243d0acc8f6",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "03105381-742e-4db0-952f-952074f3422e",
+                "ordinal": 1
+              },
+              {
+                "name": "Mes",
+                "column": "Mes",
+                "lineageTag": "2ff55413-5362-4e35-b744-435ab83faa6d",
+                "ordinal": 2
+              },
+              {
+                "name": "Día",
+                "column": "Día",
+                "lineageTag": "6b4c32d6-4498-43dc-869d-8cc1afe33ece",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "242738fd-eb45-47c0-8570-4eaf5c7854b5"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "b0da9bc8-ac84-4caa-8b06-cc08e10fc2cf",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_a383559a-696f-4361-8881-99ed11757775-fa2d4f04-700d-4701-bcaa-622953b29b88",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Calendario",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegación"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "FECHA",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "23a56385-67b4-43ad-bbab-0dae85152d8a",
+            "sourceColumn": "FECHA",
+            "summarizeBy": "none",
+            "variations": [
+              {
+                "name": "Variación",
+                "defaultHierarchy": {
+                  "hierarchy": "Jerarquía de fechas",
+                  "table": "LocalDateTable_fd00a360-0013-4a36-b893-8b6baee52b1f"
+                },
+                "isDefault": true,
+                "relationship": "bfa6918a-75f4-4f0b-89e1-853f12e5e595"
+              }
+            ]
+          }
+        ],
+        "lineageTag": "4f30b068-f26b-49d1-845c-1d88c5407b5c",
+        "partitions": [
+          {
+            "name": "Calendario-ac378644-b060-4af5-9490-22762817d57e",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Excel.Workbook(File.Contents(\"C:\\Users\\Andres\\Documents\\Power Bi\\Vinos y mostos\\Vinos y Mostos.xlsx\"), null, true),",
+                "    Tabla4_Table = Origen{[Item=\"Tabla4\",Kind=\"Table\"]}[Data],",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(Tabla4_Table,{{\"FECHA\", type date}, {\"COSECHA\", Int64.Type}, {\"ORIGEN\", type text}, {\"COLOR\", type text}, {\"TIPO\", type text}, {\"OPERACIONES CONTADO\", Int64.Type}, {\"VOLUMEN CONTADO\", type number}, {\"PRECIO TOTAL CONTADO\", type number}, {\"OPERACIONES FINANCIADO\", Int64.Type}, {\"VOLUMEN FINANCIADO\", type number}, {\"PRECIO TOTAL FINANCIADO\", type number}}),",
+                "    #\"Otras columnas quitadas\" = Table.SelectColumns(#\"Tipo cambiado\",{\"FECHA\"}),",
+                "    #\"Duplicados quitados\" = Table.Distinct(#\"Otras columnas quitadas\")",
+                "in",
+                "    #\"Duplicados quitados\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LocalDateTable_fd00a360-0013-4a36-b893-8b6baee52b1f",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "15d4148e-1d07-470d-83ee-896585c85695",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Año",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "c00223d9-ce21-4fb3-b4ec-076d3781c631",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "NroMes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "761fb165-976d-44ea-a3c7-53b68d38973b",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "b153a223-acd4-4ac7-8805-04146a0a5308",
+            "sortByColumn": "NroMes",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "NroTrimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([NroMes] + 2) / 3)",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "59e682a2-6577-4fb0-8fd3-0a5c82032bd9",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Trim. \" & [NroTrimestre]",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "0a687ca2-ab5c-47e1-935f-96a0fe3caee4",
+            "sortByColumn": "NroTrimestre",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Día",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "0eadae77-7df7-4b50-803b-9206bb4b50c1",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Jerarquía de fechas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Año",
+                "column": "Año",
+                "lineageTag": "1a61af83-376b-4ebf-8729-4c8c48857914",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "193322f2-62da-4f6f-abeb-817b0ab44610",
+                "ordinal": 1
+              },
+              {
+                "name": "Mes",
+                "column": "Mes",
+                "lineageTag": "b12799f2-1852-42c5-a3ae-cb4b03de8a4c",
+                "ordinal": 2
+              },
+              {
+                "name": "Día",
+                "column": "Día",
+                "lineageTag": "2770b37b-842d-4193-a013-0093702b74f4",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "34200151-4c34-45a5-851b-80cbfc237095"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "dccfe925-3705-40b3-9f63-d6478029fa11",
+        "partitions": [
+          {
+            "name": "LocalDateTable_fd00a360-0013-4a36-b893-8b6baee52b1f-37df850e-ea02-48f7-ab9f-758decae135f",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('Calendario'[FECHA])), 1, 1), Date(Year(MAX('Calendario'[FECHA])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      },
+      {
+        "name": "Amedidas",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "7021ce921ac2434bbf398f363ec79540"
+          },
+          {
+            "name": "436ba87b-9c83-4389-a31b-ebd06a36be98",
+            "value": "{\"Expression\":\"\"}"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Columna",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "bf33920d-ac3a-4983-87f6-98ebdfda39d5",
+            "sourceColumn": "[Columna]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "8991da7d-a6bd-4775-96b3-82b822937575",
+        "measures": [
+          {
+            "name": "Vino_Ope_Contado",
+            "expression": [
+              "",
+              "VAR Contado = SUM(VINOS[OPERACIONES CONTADO])",
+              "VAR Total = SUM(VINOS[OPERACIONES CONTADO])+SUM(VINOS[OPERACIONES FINANCIADO])",
+              "VAR result = DIVIDE(Contado, Total)",
+              "return result"
+            ],
+            "extendedProperties": [
+              {
+                "name": "MeasureTemplate",
+                "type": "json",
+                "value": {
+                  "daxTemplateName": "MathematicalDivision",
+                  "version": 0
+                }
+              }
+            ],
+            "formatString": "0\\ %;-0\\ %;0\\ %",
+            "lineageTag": "92611b6f-77eb-485d-a8d7-a393f0976a23"
+          },
+          {
+            "name": "Vino_Ope_Financiado",
+            "expression": [
+              "",
+              "VAR Financiado = sumx(VINOS, VINOS[OPERACIONES FINANCIADO])",
+              "VAR Total = SUM(VINOS[OPERACIONES CONTADO])+SUM(VINOS[OPERACIONES FINANCIADO])",
+              "VAR result = DIVIDE(Financiado, Total)",
+              "return result"
+            ],
+            "extendedProperties": [
+              {
+                "name": "MeasureTemplate",
+                "type": "json",
+                "value": {
+                  "daxTemplateName": "MathematicalDivision",
+                  "version": 0
+                }
+              }
+            ],
+            "formatString": "0\\ %;-0\\ %;0\\ %",
+            "lineageTag": "0526c02f-84fc-4c79-834a-ce8078a30225"
+          },
+          {
+            "name": "Vino_Vol_Contado",
+            "expression": [
+              "",
+              "VAR Contado = SUM(VINOS[VOLUMEN CONTADO])",
+              "VAR Total = SUM(VINOS[VOLUMEN CONTADO]) + SUM(VINOS[VOLUMEN FINANCIADO])",
+              "VAR result = DIVIDE(Contado, Total)",
+              "return result"
+            ],
+            "formatString": "0\\ %;-0\\ %;0\\ %",
+            "lineageTag": "75a64826-6774-4815-8916-ffa6cda4deff"
+          },
+          {
+            "name": "Vino_Vol_Financiado",
+            "expression": [
+              "",
+              "VAR Financiado = SUM(VINOS[VOLUMEN FINANCIADO])",
+              "VAR Total = SUM(VINOS[VOLUMEN CONTADO]) + SUM(VINOS[VOLUMEN FINANCIADO])",
+              "VAR result = DIVIDE(Financiado, Total)",
+              "return result"
+            ],
+            "formatString": "0\\ %;-0\\ %;0\\ %",
+            "lineageTag": "18ff1d8d-1c46-40ef-828b-5ffca3d283e5"
+          },
+          {
+            "name": "Mosto_Ope_Contado",
+            "expression": [
+              "",
+              "VAR Contado = SUM(MOSTOS[OPERACIONES CONTADO])",
+              "VAR Total = SUM(MOSTOS[OPERACIONES CONTADO])+SUM(MOSTOS[OPERACIONES FINANCIADO])",
+              "VAR result = DIVIDE(Contado, Total)",
+              "return result"
+            ],
+            "formatString": "0\\ %;-0\\ %;0\\ %",
+            "lineageTag": "9c4387cb-f4a8-4c87-afb1-381331c4c551"
+          },
+          {
+            "name": "Mosto_Ope_Financiado",
+            "expression": [
+              "",
+              "VAR Financiado = SUM(MOSTOS[OPERACIONES FINANCIADO])",
+              "VAR Total = SUM(MOSTOS[OPERACIONES CONTADO])+SUM(MOSTOS[OPERACIONES FINANCIADO])",
+              "VAR result = DIVIDE(Financiado, Total)",
+              "return result"
+            ],
+            "formatString": "0\\ %;-0\\ %;0\\ %",
+            "lineageTag": "807142f8-81a7-4c9a-904c-ce4ae28f98e6"
+          },
+          {
+            "name": "Mosto_Vol_Contado",
+            "expression": [
+              "",
+              "VAR Contado = SUM(MOSTOS[VOLUMEN CONTADO])",
+              "VAR Total = SUM(MOSTOS[VOLUMEN CONTADO]) + SUM(MOSTOS[VOLUMEN FINANCIADO])",
+              "VAR result = DIVIDE(Contado, Total)",
+              "return result"
+            ],
+            "formatString": "0\\ %;-0\\ %;0\\ %",
+            "lineageTag": "ca8be6d7-6fff-4813-b576-ac903cc828ea"
+          },
+          {
+            "name": "Mosto_Vol_Financiado",
+            "expression": [
+              "",
+              "VAR Financiado = SUM(MOSTOS[VOLUMEN FINANCIADO])",
+              "VAR Total = SUM(MOSTOS[VOLUMEN CONTADO]) + SUM(MOSTOS[VOLUMEN FINANCIADO])",
+              "VAR result = DIVIDE(Financiado, Total)",
+              "return result"
+            ],
+            "formatString": "0\\ %;-0\\ %;0\\ %",
+            "lineageTag": "6303bdbf-ba32-44b7-a9e4-c57dacd36531"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Amedidas-95396fa2-c3a3-440f-93ea-6ccf0aa40c58",
+            "mode": "import",
+            "source": {
+              "expression": "Row(\"Columna\", BLANK())",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "MOSTOS",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "changedProperties": [
+          {
+            "property": "Name"
+          }
+        ],
+        "columns": [
+          {
+            "name": "FECHA",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Short Date",
+            "lineageTag": "54a723e3-557d-4c46-b8d0-b7942cb74c23",
+            "sourceColumn": "FECHA",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "COSECHA",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "eee10647-1eb5-4695-bc0a-23ebbbc52b2d",
+            "sourceColumn": "COSECHA",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "ORIGEN",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "fc604d08-490a-4595-a455-8e8d860fc4ba",
+            "sourceColumn": "ORIGEN",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "COLOR",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "75c6a3da-81f1-435a-a654-a285a98e29e7",
+            "sourceColumn": "COLOR",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "TIPO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6b0ddfe9-37c8-4bcb-86f8-0896a4c370b7",
+            "sourceColumn": "TIPO",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "OPERACIONES CONTADO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "d856d2bc-4b31-4369-97f1-eb4c5efa2534",
+            "sourceColumn": "OPERACIONES CONTADO",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "VOLUMEN CONTADO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "8318e2ab-1d94-49a2-a448-849e732cd187",
+            "sourceColumn": "VOLUMEN CONTADO",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "PRECIO TOTAL CONTADO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "double",
+            "formatString": "\\$#,0.###############;(\\$#,0.###############);\\$#,0.###############",
+            "lineageTag": "1e23530c-468c-470b-81c2-2e7209cfba55",
+            "sourceColumn": "PRECIO TOTAL CONTADO",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "OPERACIONES FINANCIADO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "c75a1673-6e2f-4ca4-9650-7ad17ee8c236",
+            "sourceColumn": "OPERACIONES FINANCIADO",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "VOLUMEN FINANCIADO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "249f0227-c2d7-4034-80d8-7d2ae3055b96",
+            "sourceColumn": "VOLUMEN FINANCIADO",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "PRECIO TOTAL FINANCIADO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "double",
+            "formatString": "\\$#,0.###############;(\\$#,0.###############);\\$#,0.###############",
+            "lineageTag": "e4c2ff97-5709-44e4-bfec-9e0b8228cacd",
+            "sourceColumn": "PRECIO TOTAL FINANCIADO",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "9ce99a73-0ee1-4e4a-85f1-6f4a4265d37e",
+        "partitions": [
+          {
+            "name": "MOSTOS-55cd5234-d6df-40ea-b0b9-39160129c8a4",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Excel.Workbook(File.Contents(\"C:\\Users\\Andres\\Documents\\Power Bi\\Vinos y mostos\\Vinos y Mostos.xlsx\"), null, true),",
+                "    Mostos_Sheet = Origen{[Item=\"Mostos\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Encabezados promovidos\" = Table.PromoteHeaders(Mostos_Sheet, [PromoteAllScalars=true]),",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(#\"Encabezados promovidos\",{{\"FECHA\", type date}, {\"COSECHA\", Int64.Type}, {\"ORIGEN\", type text}, {\"COLOR\", type text}, {\"TIPO\", type text}, {\"OPERACIONES CONTADO\", type number}, {\"VOLUMEN CONTADO\", type number}, {\"PRECIO TOTAL CONTADO\", type number}, {\"OPERACIONES FINANCIADO\", type number}, {\"VOLUMEN FINANCIADO\", type number}, {\"PRECIO TOTAL FINANCIADO\", type number}})",
+                "in",
+                "    #\"Tipo cambiado\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "VINOS",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Exception"
+          }
+        ],
+        "changedProperties": [
+          {
+            "property": "Name"
+          }
+        ],
+        "columns": [
+          {
+            "name": "FECHA",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Short Date",
+            "lineageTag": "9bc2ba81-dece-487d-abec-6a6ae9a3dd3e",
+            "sourceColumn": "FECHA",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "COSECHA",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "413fee7c-01c0-4b9b-9a1b-bd5b7d76802f",
+            "sourceColumn": "COSECHA",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "ORIGEN",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d517cb71-0ff6-4ee5-a962-4296d418d4bc",
+            "sourceColumn": "ORIGEN",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "COLOR",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4ac04296-d71f-4317-990d-7b907bcd80e2",
+            "sourceColumn": "COLOR",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "TIPO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "cdf6fd7a-6fe5-4871-9740-7b6b68db43a4",
+            "sourceColumn": "TIPO",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "OPERACIONES CONTADO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "6773305c-ed94-45f4-9eed-c40fff89d74c",
+            "sourceColumn": "OPERACIONES CONTADO",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "VOLUMEN CONTADO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "605b4f55-da3c-4a16-b67e-204f90ec884a",
+            "sourceColumn": "VOLUMEN CONTADO",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "PRECIO TOTAL CONTADO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "FormatString"
+              }
+            ],
+            "dataType": "double",
+            "formatString": "\\$#,0.###############;(\\$#,0.###############);\\$#,0.###############",
+            "lineageTag": "9e116c8a-b29b-4218-aaa4-e4009371e76a",
+            "sourceColumn": "PRECIO TOTAL CONTADO",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "OPERACIONES FINANCIADO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "45370c57-187d-4bdb-ab67-428b6a160e5e",
+            "sourceColumn": "OPERACIONES FINANCIADO",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "VOLUMEN FINANCIADO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "fc82742a-94c3-4306-b953-b2cd9c6b54d7",
+            "sourceColumn": "VOLUMEN FINANCIADO",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "PRECIO TOTAL FINANCIADO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "FormatString"
+              }
+            ],
+            "dataType": "double",
+            "formatString": "\\$#,0.###############;(\\$#,0.###############);\\$#,0.###############",
+            "lineageTag": "4e427696-24b5-4368-addb-f57e36de5787",
+            "sourceColumn": "PRECIO TOTAL FINANCIADO",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "97c658f1-9a15-4981-963b-b6062a890c35",
+        "partitions": [
+          {
+            "name": "VINOS-1941d9ab-b629-407d-9946-755d7c7eb192",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Excel.Workbook(File.Contents(\"C:\\Users\\Andres\\Documents\\Power Bi\\Vinos y mostos\\Vinos y Mostos.xlsx\"), null, true),",
+                "    Vinos_Sheet = Origen{[Item=\"Vinos\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Encabezados promovidos\" = Table.PromoteHeaders(Vinos_Sheet, [PromoteAllScalars=true]),",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(#\"Encabezados promovidos\",{{\"FECHA\", type date}, {\"COSECHA\", Int64.Type}, {\"ORIGEN\", type text}, {\"COLOR\", type text}, {\"TIPO\", type text}, {\"OPERACIONES CONTADO\", Int64.Type}, {\"VOLUMEN CONTADO\", type number}, {\"PRECIO TOTAL CONTADO\", type number}, {\"OPERACIONES FINANCIADO\", Int64.Type}, {\"VOLUMEN FINANCIADO\", type number}, {\"PRECIO TOTAL FINANCIADO\", type number}})",
+                "in",
+                "    #\"Tipo cambiado\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
