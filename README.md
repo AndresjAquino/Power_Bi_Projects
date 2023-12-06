@@ -56,7 +56,7 @@ This project is about tourism in the city of Luján de Cuyo, Mendoza.
 
 ![Screenshot3](https://github.com/AndresjAquino/Power_Bi_Dashboard/blob/main/01_Tourism/Linaje.png?raw=true)
 
-## WINE MARKET 🍷💹
+## WINE MARKET 🍷💸
 
 **• Page 1: Start** 📕
 
@@ -66,7 +66,7 @@ This project is about tourism in the city of Luján de Cuyo, Mendoza.
 
 ![Page 2](https://github.com/AndresjAquino/Power_Bi_Dashboard/blob/main/02_Wine_Market/Page_2_Wine.png?raw=true)
 
-**• Page 3: ** 🍇
+**• Page 3: Grape juice** 🍇
 
 ![Page 3](https://github.com/AndresjAquino/Power_Bi_Dashboard/blob/main/02_Wine_Market/Page_3_Mostos.png?raw=true)
 
