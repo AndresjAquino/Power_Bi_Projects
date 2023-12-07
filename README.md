@@ -10,6 +10,8 @@ This repository contains Power BI dashboard projects
 
 2) Wine Market
 
+[![Barra.png](https://i.postimg.cc/SRzJ3szY/Barra.png)](https://postimg.cc/V0mfbzgz)
+
 ## TOURISM ⛱
 
 This project is about tourism in the city of Luján de Cuyo, Mendoza.
@@ -55,6 +57,8 @@ This project is about tourism in the city of Luján de Cuyo, Mendoza.
 **• Screenshot lineage**
 
 ![Screenshot3](https://github.com/AndresjAquino/Power_Bi_Dashboard/blob/main/01_Tourism/Linaje.png?raw=true)
+
+[![Barra.png](https://i.postimg.cc/SRzJ3szY/Barra.png)](https://postimg.cc/V0mfbzgz)
 
 ## WINE MARKET 🍷💸
 
