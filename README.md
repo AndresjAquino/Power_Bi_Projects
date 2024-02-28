@@ -4,13 +4,9 @@
 
 This repository contains Power BI dashboard projects
 
-### Dashboard index:
-
-01) Tourism
-
-2) Wine Market
-
-[![Barra.png](https://i.postimg.cc/SRzJ3szY/Barra.png)](https://postimg.cc/V0mfbzgz)
+## Dashboard index:
+> 01) Tourism
+> 2) Wine Market
 
 ## TOURISM ⛱
 
